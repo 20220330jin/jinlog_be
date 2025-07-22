@@ -15,7 +15,6 @@ import sa.jinlogbe.service.PostService;
 @RestController
 @RequestMapping("/api/post")
 @RequiredArgsConstructor
-@CrossOrigin("*")
 public class PostController {
 
     private final PostService postService;
