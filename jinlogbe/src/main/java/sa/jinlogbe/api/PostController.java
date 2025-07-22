@@ -32,4 +32,8 @@ public class PostController {
         postService.createPost(createPostRequest);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
+
+    /**
+     * 블로그 글 조회 api
+     */
 }
